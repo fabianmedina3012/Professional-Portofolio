@@ -1,0 +1,487 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(2, 0, 0);
+    color: rgb(247, 246, 246);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+
+}
+
+header {
+    background-color:wheat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 15px 0;    
+}
+
+header h1 {
+    background-color:wheat ;
+    color: black;
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content:right;
+    margin: 0;
+    padding: 0 10px 0;
+    width: 310px;
+    text-decoration: dashed;
+}
+
+header a {
+    background-color: wheat;
+    color: black;
+    text-decoration: dashed;
+}
+
+header nav {
+    margin: 7px 7%;
+}
+
+header nav ul {
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    list-style:none;
+}
+
+header nav ul li a {
+    background-color: wheat;
+    border-bottom: 4px solid;
+    border-color: rgb(5, 4, 4);
+    color:black;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    margin: 0 15px;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    border-color: wheat
+}
+
+.top-text {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-image: url("../images/IMG-6531.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    height: 700px;
+}
+
+.top-text div {
+    background-color:wheat;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 80px 40px 0;
+    padding: 10px 10px;
+}
+
+.blockquote-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style:italic ;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    
+}
+
+section h2 {
+    border-right: 4px solid;
+    border-color: wheat;
+    font-size: 46px;
+    justify-content:right;
+    margin: 20px 20px 10px 100px;
+    padding: 10px 10px;
+    text-align:right;
+    vertical-align: top;
+    width: 20%;
+    
+}
+
+section article {
+    display:flex;
+    flex-wrap:wrap;
+    vertical-align:auto;
+    margin: 15px 20px 15px 0px;
+    padding: 20px 20px;
+    width: 90%;
+}
+
+
+section article a {
+    text-decoration:none;
+
+}
+
+section article p {
+    padding: 0 0 0px 0 ;
+}
+
+.about-me {
+    padding: 0 0 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+   
+
+}
+
+.primary-app {
+    background-image:url("../images/horiseon.png");
+    background-size:cover;
+    border: 4px solid;
+    border-color: wheat;
+    display: flex;
+    height: 500px;
+    margin: 10px 21px 10px 0px;
+    width: 700px;
+    
+    
+}
+
+
+.secondary-apps {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.Horiseon-code {
+    background-image: url("../images/Prework.png");
+    background-size:cover;
+    border: 4px solid;
+    border-color:wheat;
+    height: 247px;
+    margin: 10px 21px 10px 0px;
+    width: 340px;
+}
+
+.secondary-app {
+    background-color: gray;
+    border: 4px solid;
+    border-color: wheat;
+    height: 247px;
+    margin: 10px 21px 10px 0px;
+    width: 340px;
+}
+
+.parent-touch {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.banner-touch {
+    background-color: wheat;
+    border: 4px solid;
+    border-color:rgb(0, 0, 0);
+    margin: 0px 0px 0px 0px;
+    padding: 0 5px 0 5px;
+}
+
+.touch-header {
+    color:black ;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.touch-tech {
+    color: #000000;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+}
+
+footer h2 {
+    border-right: 4px solid;
+    border-color: wheat;
+    font-size: 46px;
+    justify-content: right;
+    margin: 20px 20px 10px 100px;
+    padding: 10px 10px;
+    text-align: right;
+    vertical-align: top;
+    width: 20%;
+}
+
+footer div {
+    margin: 50px 15px 50px 5px;
+    padding: 10px 10px;
+    width: 90%;
+}
+
+footer div ul {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    list-style:none;
+}
+
+footer div ul li a {
+    border-bottom: none;
+    border-color: wheat;
+    color: wheat;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+footer div ul li a {
+    border-bottom: 4px solid;
+    border-color: wheat;
+    color:wheat;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+footer div ul li a:hover {
+    border-color: wheat;
+}
+
+@media screen and (max-width: 980px) {
+
+    body {
+        font-size: 22px;
+    }
+  
+    header nav ul li a {
+        font-size: 3.5vw;
+    }
+
+    .hero div {
+        width: 500px;
+    }
+
+    .blockquote-text {
+        font-size: 2.5vw;
+    }
+    
+    .blockquote-author {
+        font-size: 2.0vw;
+    }
+
+    section {
+        flex-direction: column;
+    }
+    
+    section h2 {
+        border: none;
+        justify-content: left;
+        margin: 10px 0 0 0;
+        text-align: left;
+        width: 100%;
+    }
+    
+    section article {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    
+    footer h2 {
+        border: none;
+        justify-content: left;
+        margin: 10px 0 0 0;
+        text-align: left;
+        width: 100%;
+    }
+    
+    footer div {
+        width: 100%;
+    }
+
+    footer div ul {
+        flex-direction: column;
+    }
+
+    footer div ul li span {
+        border-bottom: none;
+        font-size: 3.5vw;
+    }
+
+    footer div ul li {
+        padding: 15px 0 15px 0;
+    }
+      
+    footer div ul li a {
+        
+        font-size: 3.5vw;
+    }
+  
+  }
+
+  @media screen and (max-width: 768px) {
+
+    body {
+        font-size: 22px;
+    }
+  
+    header nav ul li a {
+        font-size: 3.5vw;
+    }
+
+    .hero div {
+        width: 500px;
+    }
+
+    .blockquote-text {
+        font-size: 2.5vw;
+    }
+    
+    .blockquote-author {
+        font-size: 2.0vw;
+    }
+
+    section {
+        flex-direction: column;
+    }
+    
+    section h2 {
+        border: none;
+        justify-content: left;
+        margin: 10px 0 0 0;
+        text-align: left;
+        width: 100%;
+    }
+    
+    section article {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    
+    footer h2 {
+        border: none;
+        justify-content: left;
+        margin: 10px 0 0 0;
+        text-align: left;
+        width: 100%;
+    }
+    
+    footer div {
+        width: 100%;
+    }
+
+    footer div ul {
+        flex-direction: column;
+    }
+
+    footer div ul li span {
+        border-bottom: none;
+        font-size: 3.5vw;
+    }
+
+    footer div ul li {
+        padding: 15px 0 15px 0;
+    }
+      
+    footer div ul li a {
+        
+        font-size: 3.5vw;
+    }
+  
+  }
+
+  @media screen and (max-width: 575px) {
+
+    body {
+        font-size: 22px;
+    }
+    
+    header nav ul li a {
+        font-size: 3.5vw;
+    }
+
+    .hero div {
+        width: 500px;
+    }
+
+    .blockquote-text {
+        font-size: 2.5vw;
+    }
+    
+    .blockquote-author {
+        font-size: 2.0vw;
+    }
+
+    section {
+        flex-direction: column;
+    }
+    
+    section h2 {
+        border: none;
+        justify-content: left;
+        margin: 10px 0 0 0;
+        text-align: left;
+        width: 100%;
+    }
+    
+    section article {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    
+    footer h2 {
+        border: none;
+        justify-content: left;
+        margin: 10px 0 0 0;
+        text-align: left;
+        width: 100%;
+    }
+    
+    footer div {
+        width: 100%;
+    }
+
+    footer div ul {
+        flex-direction: column;
+    }
+
+    footer div ul li span {
+        border-bottom: none;
+        font-size: 3.5vw;
+    }
+
+    footer div ul li {
+        padding: 15px 0 15px 0;
+    }
+      
+    footer div ul li a {
+        
+        font-size: 3.5vw;
+    }
+
+}  
+  
+
