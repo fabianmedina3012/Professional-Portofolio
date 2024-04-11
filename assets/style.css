@@ -159,9 +159,6 @@ section article p {
 .secondary-apps {
     display: flex;
     flex-wrap:wrap;
-}
-
-.Prework-study {
     background-image: url("../images/Prework.png");
     background-size:cover;
     border: 4px solid;
